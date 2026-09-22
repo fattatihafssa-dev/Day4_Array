@@ -1,0 +1,14 @@
+let occurences = [1, 2, 2, 3, 2, 4] ; 
+ let count = 0 ;
+  let i = 0 ; 
+ while( i<occurences.length) {
+      if (occurences[i]===2) {
+       count ++; 
+  }
+         i++;
+ 
+    
+}
+
+ console.log(count); 
+  
